@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/KYFlipNavigationController.svg?style=flat)](http://cocoapods.org/pods/KYFlipNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/KYFlipNavigationController.svg?style=flat)](http://cocoapods.org/pods/KYFlipNavigationController)
 
+![alt tag](https://github.com/kyleYang/KYFlipNavigationController/blob/master/Example/KYFlipNavigationController/KYFlipNavigationController.gif)
+
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
