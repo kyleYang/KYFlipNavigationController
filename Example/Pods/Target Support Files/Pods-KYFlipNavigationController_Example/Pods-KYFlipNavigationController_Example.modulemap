@@ -1,0 +1,6 @@
+framework module Pods_KYFlipNavigationController_Example {
+  umbrella header "Pods-KYFlipNavigationController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

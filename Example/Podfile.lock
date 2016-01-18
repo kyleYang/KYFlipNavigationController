@@ -1,0 +1,24 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - KYFlipNavigationController (0.1.0)
+  - RDVTabBarController (1.1.9)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KYFlipNavigationController (from `../`)
+  - RDVTabBarController (~> 1.1.9)
+
+EXTERNAL SOURCES:
+  KYFlipNavigationController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  KYFlipNavigationController: c5d20c92281276e8ac00d24b3bc3cb90efa54ddd
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+
+COCOAPODS: 0.39.0

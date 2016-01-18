@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A9A01358AFB84C73DDEF6FDF943808 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C9FA27F7FD76785B1EFBDC0CECC0A3 /* RDVTabBarController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		07172C2E1339FE9C5AD81E76BFA47D78 /* Pods-KYFlipNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4C38CEBBDC17725573054B664662B9 /* Pods-KYFlipNavigationController_Tests-dummy.m */; };
+		13E9CBED662A12F278FA33D16316CE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */; };
+		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328DBE43764E06BDD8E389C971C15BE /* UIImage+Diff.m */; };
+		16BA2ADA7D60A4934405D90909A21F53 /* Pods-KYFlipNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551BD23562A72CE2DF28F497BF9BDD8D /* Pods-KYFlipNavigationController_Example-dummy.m */; };
+		1BB2FE8DE9DB123D8FB822510646FDAC /* RDVTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F86232513E312142ACECEB000CBE1 /* RDVTabBarController-dummy.m */; };
+		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2BD64DB8315A70B5510588408E0E69 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76669D20C66CFE668C0163420439A9A /* UIKit.framework */; };
+		2FC196810996A52D1BD383D75CACF0E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */; };
+		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590E75B9E41FFD0218C9AD52AC75D9F /* FBSnapshotTestCase.m */; };
+		35DBD5AEDC68242A32DCFB99F7F202E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76669D20C66CFE668C0163420439A9A /* UIKit.framework */; };
+		3C28820B82E204D0DDCB82282ADA6386 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5070EAB9679B5298159ABF5DA4466B /* RDVTabBarItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70498E532FDCB623BC4322F70E9B52 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		431C77D05102A2ED71CEC3A8B60ABCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */; };
+		4615B9F922DF19319DFCDAE37C455F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */; };
+		4951B09C4520D7FA1FB262C2CF0EFFEC /* KYFlipNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B108D7A5CCDF1513459D7CA2B351A3 /* KYFlipNavigationController.swift */; };
+		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E7EDD74D4F449B7FAB24483C1F999F /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7752911FA933A3DDB6E29E75917B6A /* SwiftSupport.swift */; };
+		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = DE98ECF6947514AFAB0191ED148F158B /* FBSnapshotTestCasePlatform.m */; };
+		66E9C622EE76FB3EF0536330EB8D6CB8 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F4E86BE7B996CFA987653AF6F542C /* RDVTabBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE48A757E27A30B91E848CEE85F33EA /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = D79111383F989F0FB7E19AA9C79DAC7A /* UIImage+Compare.m */; };
+		79167101AEA9C0AF81A81978E2B9AE92 /* Pods-KYFlipNavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9F03C68D9DDEE83EB5CA62530879F /* Pods-KYFlipNavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 076403F38C8222040BA95E83109A7F11 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1E4EE7F9712CFED4F0BF69286EAC46 /* KYFlipNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C06CCE32EBEF2BDFC80B68961550E5 /* KYFlipNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C56F56292EC6CE8BB13ACB6E50B12F /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839D68047123F5D920B4CFB6D16382BA /* KYFlipNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF34A6C24D72C1A3E746088EDFD0D6D0 /* KYFlipNavigationController-dummy.m */; };
+		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */; };
+		93BD7A7EE10E03E87485E90D7AAF60B9 /* KYFlipNavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D3394389036B81E6BEF391614E7F7 /* KYFlipNavigationController.bundle */; };
+		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44633BFF41AD207ACB5AA98AEEB6F62B /* FBSnapshotTestController.m */; };
+		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06333A9647D4E1EDC2B4ABF615AA5C5 /* XCTest.framework */; };
+		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9EC75370DB788E4FFBC1F20E9959A5 /* FBSnapshotTestCase-dummy.m */; };
+		CE70691949924A2454B80916D00EBC30 /* RDVTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 299F782102C07BE73F3B6ADD93690C95 /* RDVTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E99C1F23BA5D896A3894A9D9AD28653 /* QuartzCore.framework */; };
+		D072379A3EAA98EA2E65AA12CC82EE23 /* RDVTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6E88CA78A925557393714B11D17E2C /* RDVTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97B68BEE572F064DF0F91A8496B3E14 /* RDVTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB2A8BA46F77F685A1D72FB3AB8D219 /* RDVTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD87E7260064A3F8385CD003A2552DE /* Pods-KYFlipNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E700981F49F4E43B87096883D5A428 /* Pods-KYFlipNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0C300721C343156177F88895DF735 /* UIImage+Snapshot.m */; };
+		F68916658BE063A52D4774AB16CD1994 /* RDVTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8902D82665C7E1110C175D2820B679 /* RDVTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA195C1626A65354864A348DE5CE65D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0AF86F2FF551F509F855316F7637B /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD8B347323DDFC969084F8651CC5E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A1AC4B32FDD411B38EC22AB1CAB055;
+			remoteInfo = KYFlipNavigationController;
+		};
+		68CB2238CA95C99605BDD53C454E9973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2E3D3A5979C9902C424ACEA2D653FE;
+			remoteInfo = "KYFlipNavigationController-KYFlipNavigationController";
+		};
+		C88D8C0BDBD7F02273AA2C32F204AB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A1AC4B32FDD411B38EC22AB1CAB055;
+			remoteInfo = KYFlipNavigationController;
+		};
+		CC2014B8BF40F6A766BAA88D7C98727F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5929E2EE4670D099A01F5DB0290B47C3;
+			remoteInfo = RDVTabBarController;
+		};
+		DE919148BC4770574B286604DAEDCC12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DD9D0521D9CB1D3FAE8A3E1D9307C9 /* KYFlipNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYFlipNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		076403F38C8222040BA95E83109A7F11 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		0A85FC7958CDCE1C2A4028DB7F749D0E /* Pods-KYFlipNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYFlipNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		11355BA7F5B27686F288A558A0A4AC81 /* Pods-KYFlipNavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYFlipNavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1328DBE43764E06BDD8E389C971C15BE /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		135FB1676927DE10284E742C686CDEAD /* KYFlipNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KYFlipNavigationController.modulemap; sourceTree = "<group>"; };
+		136CB173A0032A8FED08E7896D6E0130 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		13D9F03C68D9DDEE83EB5CA62530879F /* Pods-KYFlipNavigationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYFlipNavigationController_Example-umbrella.h"; sourceTree = "<group>"; };
+		14FF07C8916335F448B93B99E69882F0 /* Pods-KYFlipNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYFlipNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E6E88CA78A925557393714B11D17E2C /* RDVTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarItem.h; path = RDVTabBarController/RDVTabBarItem.h; sourceTree = "<group>"; };
+		1E99C1F23BA5D896A3894A9D9AD28653 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		22B108D7A5CCDF1513459D7CA2B351A3 /* KYFlipNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KYFlipNavigationController.swift; sourceTree = "<group>"; };
+		22C5E7A2FBF75A13B1F23C359B9F8E2C /* Pods-KYFlipNavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYFlipNavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24678A166D7DC23D74EF6AB66ECF9464 /* Pods-KYFlipNavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KYFlipNavigationController_Tests.modulemap"; sourceTree = "<group>"; };
+		24C56F56292EC6CE8BB13ACB6E50B12F /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		2590E75B9E41FFD0218C9AD52AC75D9F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		287F86232513E312142ACECEB000CBE1 /* RDVTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RDVTabBarController-dummy.m"; sourceTree = "<group>"; };
+		299F782102C07BE73F3B6ADD93690C95 /* RDVTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarController.h; path = RDVTabBarController/RDVTabBarController.h; sourceTree = "<group>"; };
+		2D5070EAB9679B5298159ABF5DA4466B /* RDVTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarItem.m; path = RDVTabBarController/RDVTabBarItem.m; sourceTree = "<group>"; };
+		2EE48A757E27A30B91E848CEE85F33EA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2F9280C90938B2E631F0A12EFDE0BD2E /* Pods-KYFlipNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYFlipNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2FBD2D4E7082058533851B41895767AA /* RDVTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDVTabBarController.xcconfig; sourceTree = "<group>"; };
+		431A5DBF7A416A2C1949F7F8A46E3520 /* Pods-KYFlipNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYFlipNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		44633BFF41AD207ACB5AA98AEEB6F62B /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		4A8902D82665C7E1110C175D2820B679 /* RDVTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBar.h; path = RDVTabBarController/RDVTabBar.h; sourceTree = "<group>"; };
+		4AD0C300721C343156177F88895DF735 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		5139AC7291F3DD2897BF5C15A322EF2B /* Pods-KYFlipNavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYFlipNavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		551BD23562A72CE2DF28F497BF9BDD8D /* Pods-KYFlipNavigationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYFlipNavigationController_Example-dummy.m"; sourceTree = "<group>"; };
+		55E7EDD74D4F449B7FAB24483C1F999F /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		5CB2A8BA46F77F685A1D72FB3AB8D219 /* RDVTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		5E7752911FA933A3DDB6E29E75917B6A /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A7D3394389036B81E6BEF391614E7F7 /* KYFlipNavigationController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYFlipNavigationController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B05581D1C0DBB941C1E529728ED8F1B /* RDVTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		79833D944641DF277321A2712F111616 /* Pods_KYFlipNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYFlipNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB0AF86F2FF551F509F855316F7637B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		80894C56006374B6D2CFADD5ADD13B26 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D1197927312DB89483CA9B464344CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A70498E532FDCB623BC4322F70E9B52 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8C4B3CB2F107FE43D718BA8960CBFE65 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		92361FD9583ADB770B2375907F17005A /* Pods-KYFlipNavigationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYFlipNavigationController_Tests-resources.sh"; sourceTree = "<group>"; };
+		94E700981F49F4E43B87096883D5A428 /* Pods-KYFlipNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYFlipNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9A1C3B9B6BDFC4DF4464ABAA62AAE4C1 /* KYFlipNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYFlipNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		A46F4E86BE7B996CFA987653AF6F542C /* RDVTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBar.m; path = RDVTabBarController/RDVTabBar.m; sourceTree = "<group>"; };
+		A5269FBBB1D95CE65CC2E13986C7F88D /* Pods-KYFlipNavigationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYFlipNavigationController_Example-resources.sh"; sourceTree = "<group>"; };
+		A79B7CD5C7C6DE04BBD5E0CEA4300B66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC39CA5D00B5E4215F4966B015590D03 /* Pods-KYFlipNavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYFlipNavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4C06CCE32EBEF2BDFC80B68961550E5 /* KYFlipNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYFlipNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		B4C9FA27F7FD76785B1EFBDC0CECC0A3 /* RDVTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarController.m; path = RDVTabBarController/RDVTabBarController.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF34A6C24D72C1A3E746088EDFD0D6D0 /* KYFlipNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYFlipNavigationController-dummy.m"; sourceTree = "<group>"; };
+		C48C30E5F0607E7BA613BD9DB654C9C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76669D20C66CFE668C0163420439A9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9D80066A5055070F3A6564CCAEDE384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6F52CFA04A6FCBCD9ED4C6E95E3D80 /* RDVTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RDVTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4C38CEBBDC17725573054B664662B9 /* Pods-KYFlipNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYFlipNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE2BD64DB8315A70B5510588408E0E69 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		D06333A9647D4E1EDC2B4ABF615AA5C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D28B221966457E7990DB25786A3ED8D1 /* Pods_KYFlipNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYFlipNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29EB408C2D108B36CFA294762A59EFE /* KYFlipNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYFlipNavigationController.xcconfig; sourceTree = "<group>"; };
+		D79111383F989F0FB7E19AA9C79DAC7A /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		DB9EC75370DB788E4FFBC1F20E9959A5 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		DE98ECF6947514AFAB0191ED148F158B /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		E2CCABBD591DA6F0C4A75B9956984891 /* Pods-KYFlipNavigationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYFlipNavigationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E89FA2B2D1857446E5A16506A1EE3CB3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		F19891EC78AEBD3F4E7F5323BFD816A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AC15C641FA712D85C7778617017F0F /* Pods-KYFlipNavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYFlipNavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F646E02EBD7E08840F23360FB863ED37 /* RDVTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RDVTabBarController.modulemap; sourceTree = "<group>"; };
+		FBF3CEFEEEE4E9A2BA8BFC747EF55034 /* Pods-KYFlipNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KYFlipNavigationController_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B448E370FA4B309C80F417D2CD371DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DB18FB9924C26C4307645404BFCE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431C77D05102A2ED71CEC3A8B60ABCAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E1FF481DB2C79B1D8B1A264E29B02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615B9F922DF19319DFCDAE37C455F7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916A655814178A668DB80C9FE371E241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA195C1626A65354864A348DE5CE65D7 /* CoreGraphics.framework in Frameworks */,
+				13E9CBED662A12F278FA33D16316CE3D /* Foundation.framework in Frameworks */,
+				35DBD5AEDC68242A32DCFB99F7F202E6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */,
+				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
+				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
+				AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0890823685E1B394853AC1E4C45437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC196810996A52D1BD383D75CACF0E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A179B7C2A8ADB8AE15CA4957DD53824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80894C56006374B6D2CFADD5ADD13B26 /* FBSnapshotTestCase.framework */,
+				6A7D3394389036B81E6BEF391614E7F7 /* KYFlipNavigationController.bundle */,
+				01DD9D0521D9CB1D3FAE8A3E1D9307C9 /* KYFlipNavigationController.framework */,
+				D28B221966457E7990DB25786A3ED8D1 /* Pods_KYFlipNavigationController_Example.framework */,
+				79833D944641DF277321A2712F111616 /* Pods_KYFlipNavigationController_Tests.framework */,
+				CA6F52CFA04A6FCBCD9ED4C6E95E3D80 /* RDVTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD08E6987096D62193ED6A096D7C4E97 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49A10966F031E20909E32C036976A9DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22B108D7A5CCDF1513459D7CA2B351A3 /* KYFlipNavigationController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60521082EFF81571CD2D11947C170B84 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49A10966F031E20909E32C036976A9DE /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6420EFF5414CBAD17E726035B16F0959 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C4B3CB2F107FE43D718BA8960CBFE65 /* FBSnapshotTestCase.modulemap */,
+				E89FA2B2D1857446E5A16506A1EE3CB3 /* FBSnapshotTestCase.xcconfig */,
+				DB9EC75370DB788E4FFBC1F20E9959A5 /* FBSnapshotTestCase-dummy.m */,
+				136CB173A0032A8FED08E7896D6E0130 /* FBSnapshotTestCase-prefix.pch */,
+				C48C30E5F0607E7BA613BD9DB654C9C7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		6819C8E7708AC3B35849D1D2608464B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD897DC69463B7DF643B8031A88E4022 /* FBSnapshotTestCase */,
+				70F4E6482238CB3C60299B9ECF076C7E /* RDVTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F6EB73F2FD9FF3DF3882EEDCF710E28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4A233F50ED249D3AF1AD76325171B /* Pods-KYFlipNavigationController_Example */,
+				75E8070B05954E54D6D9C2D85C31FBBF /* Pods-KYFlipNavigationController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		70F4E6482238CB3C60299B9ECF076C7E /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4A8902D82665C7E1110C175D2820B679 /* RDVTabBar.h */,
+				A46F4E86BE7B996CFA987653AF6F542C /* RDVTabBar.m */,
+				299F782102C07BE73F3B6ADD93690C95 /* RDVTabBarController.h */,
+				B4C9FA27F7FD76785B1EFBDC0CECC0A3 /* RDVTabBarController.m */,
+				1E6E88CA78A925557393714B11D17E2C /* RDVTabBarItem.h */,
+				2D5070EAB9679B5298159ABF5DA4466B /* RDVTabBarItem.m */,
+				E832310C31B68B8FAD41B4C258B05400 /* Support Files */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		75E8070B05954E54D6D9C2D85C31FBBF /* Pods-KYFlipNavigationController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A79B7CD5C7C6DE04BBD5E0CEA4300B66 /* Info.plist */,
+				24678A166D7DC23D74EF6AB66ECF9464 /* Pods-KYFlipNavigationController_Tests.modulemap */,
+				5139AC7291F3DD2897BF5C15A322EF2B /* Pods-KYFlipNavigationController_Tests-acknowledgements.markdown */,
+				22C5E7A2FBF75A13B1F23C359B9F8E2C /* Pods-KYFlipNavigationController_Tests-acknowledgements.plist */,
+				CD4C38CEBBDC17725573054B664662B9 /* Pods-KYFlipNavigationController_Tests-dummy.m */,
+				E2CCABBD591DA6F0C4A75B9956984891 /* Pods-KYFlipNavigationController_Tests-frameworks.sh */,
+				92361FD9583ADB770B2375907F17005A /* Pods-KYFlipNavigationController_Tests-resources.sh */,
+				94E700981F49F4E43B87096883D5A428 /* Pods-KYFlipNavigationController_Tests-umbrella.h */,
+				14FF07C8916335F448B93B99E69882F0 /* Pods-KYFlipNavigationController_Tests.debug.xcconfig */,
+				0A85FC7958CDCE1C2A4028DB7F749D0E /* Pods-KYFlipNavigationController_Tests.release.xcconfig */,
+			);
+			name = "Pods-KYFlipNavigationController_Tests";
+			path = "Target Support Files/Pods-KYFlipNavigationController_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9A898E63A7B945549A195A86B0AA4DEE /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				6819C8E7708AC3B35849D1D2608464B6 /* Pods */,
+				0A179B7C2A8ADB8AE15CA4957DD53824 /* Products */,
+				6F6EB73F2FD9FF3DF3882EEDCF710E28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A898E63A7B945549A195A86B0AA4DEE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02C0504BF6123B2FC07EE770A7D1DC4 /* KYFlipNavigationController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AEBB4DCC88C11708EDE23A84AE8C1704 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				5E7752911FA933A3DDB6E29E75917B6A /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B02C0504BF6123B2FC07EE770A7D1DC4 /* KYFlipNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				60521082EFF81571CD2D11947C170B84 /* Pod */,
+				B892D81616E678294EEAB18076D1C7B8 /* Support Files */,
+			);
+			name = KYFlipNavigationController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B892D81616E678294EEAB18076D1C7B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9D80066A5055070F3A6564CCAEDE384 /* Info.plist */,
+				135FB1676927DE10284E742C686CDEAD /* KYFlipNavigationController.modulemap */,
+				D29EB408C2D108B36CFA294762A59EFE /* KYFlipNavigationController.xcconfig */,
+				BF34A6C24D72C1A3E746088EDFD0D6D0 /* KYFlipNavigationController-dummy.m */,
+				9A1C3B9B6BDFC4DF4464ABAA62AAE4C1 /* KYFlipNavigationController-prefix.pch */,
+				B4C06CCE32EBEF2BDFC80B68961550E5 /* KYFlipNavigationController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYFlipNavigationController";
+			sourceTree = "<group>";
+		};
+		CD08E6987096D62193ED6A096D7C4E97 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CB0AF86F2FF551F509F855316F7637B /* CoreGraphics.framework */,
+				6316FD76AE65B17F6E2411856FE450D7 /* Foundation.framework */,
+				1E99C1F23BA5D896A3894A9D9AD28653 /* QuartzCore.framework */,
+				C76669D20C66CFE668C0163420439A9A /* UIKit.framework */,
+				D06333A9647D4E1EDC2B4ABF615AA5C5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD71104A119DA0DDCA75CA267FE74535 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				24C56F56292EC6CE8BB13ACB6E50B12F /* FBSnapshotTestCase.h */,
+				2590E75B9E41FFD0218C9AD52AC75D9F /* FBSnapshotTestCase.m */,
+				8A70498E532FDCB623BC4322F70E9B52 /* FBSnapshotTestCasePlatform.h */,
+				DE98ECF6947514AFAB0191ED148F158B /* FBSnapshotTestCasePlatform.m */,
+				076403F38C8222040BA95E83109A7F11 /* FBSnapshotTestController.h */,
+				44633BFF41AD207ACB5AA98AEEB6F62B /* FBSnapshotTestController.m */,
+				CE2BD64DB8315A70B5510588408E0E69 /* UIImage+Compare.h */,
+				D79111383F989F0FB7E19AA9C79DAC7A /* UIImage+Compare.m */,
+				55E7EDD74D4F449B7FAB24483C1F999F /* UIImage+Diff.h */,
+				1328DBE43764E06BDD8E389C971C15BE /* UIImage+Diff.m */,
+				2EE48A757E27A30B91E848CEE85F33EA /* UIImage+Snapshot.h */,
+				4AD0C300721C343156177F88895DF735 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CD897DC69463B7DF643B8031A88E4022 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				CD71104A119DA0DDCA75CA267FE74535 /* Core */,
+				6420EFF5414CBAD17E726035B16F0959 /* Support Files */,
+				AEBB4DCC88C11708EDE23A84AE8C1704 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		D7D4A233F50ED249D3AF1AD76325171B /* Pods-KYFlipNavigationController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				82D1197927312DB89483CA9B464344CB /* Info.plist */,
+				FBF3CEFEEEE4E9A2BA8BFC747EF55034 /* Pods-KYFlipNavigationController_Example.modulemap */,
+				AC39CA5D00B5E4215F4966B015590D03 /* Pods-KYFlipNavigationController_Example-acknowledgements.markdown */,
+				F1AC15C641FA712D85C7778617017F0F /* Pods-KYFlipNavigationController_Example-acknowledgements.plist */,
+				551BD23562A72CE2DF28F497BF9BDD8D /* Pods-KYFlipNavigationController_Example-dummy.m */,
+				11355BA7F5B27686F288A558A0A4AC81 /* Pods-KYFlipNavigationController_Example-frameworks.sh */,
+				A5269FBBB1D95CE65CC2E13986C7F88D /* Pods-KYFlipNavigationController_Example-resources.sh */,
+				13D9F03C68D9DDEE83EB5CA62530879F /* Pods-KYFlipNavigationController_Example-umbrella.h */,
+				431A5DBF7A416A2C1949F7F8A46E3520 /* Pods-KYFlipNavigationController_Example.debug.xcconfig */,
+				2F9280C90938B2E631F0A12EFDE0BD2E /* Pods-KYFlipNavigationController_Example.release.xcconfig */,
+			);
+			name = "Pods-KYFlipNavigationController_Example";
+			path = "Target Support Files/Pods-KYFlipNavigationController_Example";
+			sourceTree = "<group>";
+		};
+		E832310C31B68B8FAD41B4C258B05400 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F19891EC78AEBD3F4E7F5323BFD816A3 /* Info.plist */,
+				F646E02EBD7E08840F23360FB863ED37 /* RDVTabBarController.modulemap */,
+				2FBD2D4E7082058533851B41895767AA /* RDVTabBarController.xcconfig */,
+				287F86232513E312142ACECEB000CBE1 /* RDVTabBarController-dummy.m */,
+				6B05581D1C0DBB941C1E529728ED8F1B /* RDVTabBarController-prefix.pch */,
+				5CB2A8BA46F77F685A1D72FB3AB8D219 /* RDVTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RDVTabBarController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E0C34166995FED5B57F78D662558E6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79167101AEA9C0AF81A81978E2B9AE92 /* Pods-KYFlipNavigationController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */,
+				41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */,
+				7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */,
+				1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */,
+				52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */,
+				723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963B308D3D3B96B2570C4DFAA3945D86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD87E7260064A3F8385CD003A2552DE /* Pods-KYFlipNavigationController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADBFED3A2A063B547CB32D830B62A86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68916658BE063A52D4774AB16CD1994 /* RDVTabBar.h in Headers */,
+				D97B68BEE572F064DF0F91A8496B3E14 /* RDVTabBarController-umbrella.h in Headers */,
+				CE70691949924A2454B80916D00EBC30 /* RDVTabBarController.h in Headers */,
+				D072379A3EAA98EA2E65AA12CC82EE23 /* RDVTabBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1654897FFB0B02B214800008B8885D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1E4EE7F9712CFED4F0BF69286EAC46 /* KYFlipNavigationController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E2014F71DDC998452065CD41D7899C4 /* Pods-KYFlipNavigationController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EAB45399E95CB6D273129D0D6B9331 /* Build configuration list for PBXNativeTarget "Pods-KYFlipNavigationController_Example" */;
+			buildPhases = (
+				D5E2D6EA73A46B63C2374D0923014C25 /* Sources */,
+				AF0890823685E1B394853AC1E4C45437 /* Frameworks */,
+				5E0C34166995FED5B57F78D662558E6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D77F71B29475A57DD7C109CA399CEE /* PBXTargetDependency */,
+				26640DE1FC766CDC4F023F31F0CCD8F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-KYFlipNavigationController_Example";
+			productName = "Pods-KYFlipNavigationController_Example";
+			productReference = D28B221966457E7990DB25786A3ED8D1 /* Pods_KYFlipNavigationController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5929E2EE4670D099A01F5DB0290B47C3 /* RDVTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D6571436691A3EBDE2D0618AE4361D /* Build configuration list for PBXNativeTarget "RDVTabBarController" */;
+			buildPhases = (
+				1AF1115129550CE960EBD9C358B202DF /* Sources */,
+				916A655814178A668DB80C9FE371E241 /* Frameworks */,
+				AADBFED3A2A063B547CB32D830B62A86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDVTabBarController;
+			productName = RDVTabBarController;
+			productReference = CA6F52CFA04A6FCBCD9ED4C6E95E3D80 /* RDVTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75A1AC4B32FDD411B38EC22AB1CAB055 /* KYFlipNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A00AF26C798DE8EB0FD6321DF916AA /* Build configuration list for PBXNativeTarget "KYFlipNavigationController" */;
+			buildPhases = (
+				D5A7FF79DA61AD183AA9C7A1B7200F58 /* Sources */,
+				77E1FF481DB2C79B1D8B1A264E29B02B /* Frameworks */,
+				5A07FCAF2644BAF852123C360925AE76 /* Resources */,
+				C1654897FFB0B02B214800008B8885D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B5A1D839FFF8982CE0AB391C704E87 /* PBXTargetDependency */,
+			);
+			name = KYFlipNavigationController;
+			productName = KYFlipNavigationController;
+			productReference = 01DD9D0521D9CB1D3FAE8A3E1D9307C9 /* KYFlipNavigationController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C2E3D3A5979C9902C424ACEA2D653FE /* KYFlipNavigationController-KYFlipNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A631F6E55CB6F030D4E07B1ACFA1F32 /* Build configuration list for PBXNativeTarget "KYFlipNavigationController-KYFlipNavigationController" */;
+			buildPhases = (
+				50EF583FC9A6225729E85FFA15B572A6 /* Sources */,
+				1B448E370FA4B309C80F417D2CD371DC /* Frameworks */,
+				2FC5DA9A401FB8518B4DC4DADE4A2F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KYFlipNavigationController-KYFlipNavigationController";
+			productName = "KYFlipNavigationController-KYFlipNavigationController";
+			productReference = 6A7D3394389036B81E6BEF391614E7F7 /* KYFlipNavigationController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */,
+				96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */,
+				6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 80894C56006374B6D2CFADD5ADD13B26 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5789E6E40208B13ED27DEA96EC45C4F /* Pods-KYFlipNavigationController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B934AAA8FB79EB37CC3FA60E3EFE837 /* Build configuration list for PBXNativeTarget "Pods-KYFlipNavigationController_Tests" */;
+			buildPhases = (
+				85C03C2735468B314D650043EEC71CC4 /* Sources */,
+				73DB18FB9924C26C4307645404BFCE1D /* Frameworks */,
+				963B308D3D3B96B2570C4DFAA3945D86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A51E1162EB8A4AC3A07E84FBC63E327 /* PBXTargetDependency */,
+				745EDAFE49F87974743FA8F95B6F6C2E /* PBXTargetDependency */,
+			);
+			name = "Pods-KYFlipNavigationController_Tests";
+			productName = "Pods-KYFlipNavigationController_Tests";
+			productReference = 79833D944641DF277321A2712F111616 /* Pods_KYFlipNavigationController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A179B7C2A8ADB8AE15CA4957DD53824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
+				75A1AC4B32FDD411B38EC22AB1CAB055 /* KYFlipNavigationController */,
+				9C2E3D3A5979C9902C424ACEA2D653FE /* KYFlipNavigationController-KYFlipNavigationController */,
+				1E2014F71DDC998452065CD41D7899C4 /* Pods-KYFlipNavigationController_Example */,
+				B5789E6E40208B13ED27DEA96EC45C4F /* Pods-KYFlipNavigationController_Tests */,
+				5929E2EE4670D099A01F5DB0290B47C3 /* RDVTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC5DA9A401FB8518B4DC4DADE4A2F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A07FCAF2644BAF852123C360925AE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BD7A7EE10E03E87485E90D7AAF60B9 /* KYFlipNavigationController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF1115129550CE960EBD9C358B202DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9C622EE76FB3EF0536330EB8D6CB8 /* RDVTabBar.m in Sources */,
+				1BB2FE8DE9DB123D8FB822510646FDAC /* RDVTabBarController-dummy.m in Sources */,
+				04A9A01358AFB84C73DDEF6FDF943808 /* RDVTabBarController.m in Sources */,
+				3C28820B82E204D0DDCB82282ADA6386 /* RDVTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */,
+				35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */,
+				5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */,
+				AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */,
+				52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */,
+				788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */,
+				163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */,
+				EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF583FC9A6225729E85FFA15B572A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C03C2735468B314D650043EEC71CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07172C2E1339FE9C5AD81E76BFA47D78 /* Pods-KYFlipNavigationController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A7FF79DA61AD183AA9C7A1B7200F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839D68047123F5D920B4CFB6D16382BA /* KYFlipNavigationController-dummy.m in Sources */,
+				4951B09C4520D7FA1FB262C2CF0EFFEC /* KYFlipNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E2D6EA73A46B63C2374D0923014C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BA2ADA7D60A4934405D90909A21F53 /* Pods-KYFlipNavigationController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26640DE1FC766CDC4F023F31F0CCD8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RDVTabBarController;
+			target = 5929E2EE4670D099A01F5DB0290B47C3 /* RDVTabBarController */;
+			targetProxy = CC2014B8BF40F6A766BAA88D7C98727F /* PBXContainerItemProxy */;
+		};
+		37B5A1D839FFF8982CE0AB391C704E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KYFlipNavigationController-KYFlipNavigationController";
+			target = 9C2E3D3A5979C9902C424ACEA2D653FE /* KYFlipNavigationController-KYFlipNavigationController */;
+			targetProxy = 68CB2238CA95C99605BDD53C454E9973 /* PBXContainerItemProxy */;
+		};
+		3A51E1162EB8A4AC3A07E84FBC63E327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */;
+			targetProxy = DE919148BC4770574B286604DAEDCC12 /* PBXContainerItemProxy */;
+		};
+		68D77F71B29475A57DD7C109CA399CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYFlipNavigationController;
+			target = 75A1AC4B32FDD411B38EC22AB1CAB055 /* KYFlipNavigationController */;
+			targetProxy = C88D8C0BDBD7F02273AA2C32F204AB0F /* PBXContainerItemProxy */;
+		};
+		745EDAFE49F87974743FA8F95B6F6C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYFlipNavigationController;
+			target = 75A1AC4B32FDD411B38EC22AB1CAB055 /* KYFlipNavigationController */;
+			targetProxy = 2FD8B347323DDFC969084F8651CC5E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017323F51165FCAA8519A7BE1EBBAD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89FA2B2D1857446E5A16506A1EE3CB3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0938D07A54A9AE906011D0EBA253EEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FF07C8916335F448B93B99E69882F0 /* Pods-KYFlipNavigationController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYFlipNavigationController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYFlipNavigationController_Tests/Pods-KYFlipNavigationController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KYFlipNavigationController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DBB00937D2D4D1CAD99123D9707B0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBD2D4E7082058533851B41895767AA /* RDVTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RDVTabBarController/RDVTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RDVTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RDVTabBarController/RDVTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RDVTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4412D68BA461889265711068B6DD8D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A85FC7958CDCE1C2A4028DB7F749D0E /* Pods-KYFlipNavigationController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYFlipNavigationController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYFlipNavigationController_Tests/Pods-KYFlipNavigationController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KYFlipNavigationController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AB3271BF316A161F7713A579CC10176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9280C90938B2E631F0A12EFDE0BD2E /* Pods-KYFlipNavigationController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYFlipNavigationController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYFlipNavigationController_Example/Pods-KYFlipNavigationController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KYFlipNavigationController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		685A1F4452D6FD082B2FA2FFC758B93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29EB408C2D108B36CFA294762A59EFE /* KYFlipNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYFlipNavigationController/KYFlipNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYFlipNavigationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYFlipNavigationController/KYFlipNavigationController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KYFlipNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		814150B410C70EE7712CA1CC6CBE2A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29EB408C2D108B36CFA294762A59EFE /* KYFlipNavigationController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KYFlipNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		838077BB3FB4B0FD4684BC59268D5752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29EB408C2D108B36CFA294762A59EFE /* KYFlipNavigationController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KYFlipNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8DB04FF87C8A731C578886C72AD7A0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431A5DBF7A416A2C1949F7F8A46E3520 /* Pods-KYFlipNavigationController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYFlipNavigationController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYFlipNavigationController_Example/Pods-KYFlipNavigationController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KYFlipNavigationController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9263636507E5A6C750D7DB8581979EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89FA2B2D1857446E5A16506A1EE3CB3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96B4D01F2A3512CE945347F0A082DC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBD2D4E7082058533851B41895767AA /* RDVTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RDVTabBarController/RDVTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RDVTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RDVTabBarController/RDVTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RDVTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B8B997E981B4CA3A097EA0F8E859DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29EB408C2D108B36CFA294762A59EFE /* KYFlipNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYFlipNavigationController/KYFlipNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYFlipNavigationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYFlipNavigationController/KYFlipNavigationController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KYFlipNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9263636507E5A6C750D7DB8581979EFE /* Debug */,
+				017323F51165FCAA8519A7BE1EBBAD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EAB45399E95CB6D273129D0D6B9331 /* Build configuration list for PBXNativeTarget "Pods-KYFlipNavigationController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB04FF87C8A731C578886C72AD7A0DD /* Debug */,
+				4AB3271BF316A161F7713A579CC10176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A631F6E55CB6F030D4E07B1ACFA1F32 /* Build configuration list for PBXNativeTarget "KYFlipNavigationController-KYFlipNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814150B410C70EE7712CA1CC6CBE2A04 /* Debug */,
+				838077BB3FB4B0FD4684BC59268D5752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A00AF26C798DE8EB0FD6321DF916AA /* Build configuration list for PBXNativeTarget "KYFlipNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A1F4452D6FD082B2FA2FFC758B93C /* Debug */,
+				9B8B997E981B4CA3A097EA0F8E859DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B934AAA8FB79EB37CC3FA60E3EFE837 /* Build configuration list for PBXNativeTarget "Pods-KYFlipNavigationController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0938D07A54A9AE906011D0EBA253EEE4 /* Debug */,
+				4412D68BA461889265711068B6DD8D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D6571436691A3EBDE2D0618AE4361D /* Build configuration list for PBXNativeTarget "RDVTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBB00937D2D4D1CAD99123D9707B0A2 /* Debug */,
+				96B4D01F2A3512CE945347F0A082DC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module KYFlipNavigationController {
+  umbrella header "KYFlipNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
