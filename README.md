@@ -15,10 +15,10 @@ Many app like EasyNet News and Toutiao use TabbarController UINavigationControll
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-###Init
+####Init
 ```swift
 
-		let firstVC = StoryboardHelper.loadViewControllerVCIdentifier("FirstViewController")
+		let firstVC = StoryboardHelper.loadViewControllerVCIdentifier("FirstViewController") //load viewcontroller from storyboard
         firstVC.title = "One"
         let firstNavi = UINavigationController(rootViewController: firstVC)
         
@@ -33,6 +33,49 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         let flipViewController = KYFlipNavigationController(rootViewCotroller: tabbar)
         self.windows.rootViewController = flipViewController
         self.window.makeKeyAndVisible()
+
+```
+Push and pop almost like the UINavigationController . The key way is to find the flipNavigationController. It's easy and we use a UITabbarController's extension
+```swift
+		//Push
+  		let  viewController = StoryboardHelper.loadViewControllerVCIdentifier("NavigationController")
+        viewController.title = "Three"
+        self.rdv_tabBarController.flipNavigationController?.pushViewController(viewController, animated: true) //find the navigationCotroller use self.pushViewController
+
+        //Pop
+        self.navigationController?.flipNavigationController?.popViewController(true)
+
+```
+The public func 
+
+```swift
+	//Push
+    public func pushViewController(viewController : UIViewController, animated : Bool, completed : KYFlipNavigationCompletionBlock?)
+    public func pushViewController(viewController : UIViewController , animated: Bool) 
+
+    //Pop
+    public func popToRootViewControllerAnimated(animated : Bool ,completed : KYFlipNavigationCompletionBlock?)
+    public func popToRootViewControllerAnimated(animated : Bool ,completed : KYFlipNavigationCompletionBlock?)
+	public func popToViewController(viewController : UIViewController, animated : Bool, completed : KYFlipNavigationCompletionBlock?)
+	public func popViewController(animated : Bool, completed : KYFlipNavigationCompletionBlock?)
+	public func popViewController(animated : Bool)
+```
+You can also change the UIViewController stack when you want
+
+```swift
+
+ 		guard let viewControllers = self.flipNavigationController?.viewControllers else {
+            return
+        }
+        var newControllers : Array<UIViewController> = []
+        for viewController in viewControllers {
+            
+            if !viewController.isKindOfClass(ForthViewController.self) {
+                newControllers.append(viewController)
+            }
+        }
+        
+        self.flipNavigationController?.viewControllers = newControllers
 
 ```
 
@@ -51,6 +94,8 @@ pod "KYFlipNavigationController"
 ## Author
 
 kyleYang, yangzychina@gmail.com
+
+If you find any porblem , please tell me
 
 ## License
 
