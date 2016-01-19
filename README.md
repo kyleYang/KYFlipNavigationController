@@ -5,12 +5,37 @@
 [![License](https://img.shields.io/cocoapods/l/KYFlipNavigationController.svg?style=flat)](http://cocoapods.org/pods/KYFlipNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/KYFlipNavigationController.svg?style=flat)](http://cocoapods.org/pods/KYFlipNavigationController)
 
-![alt tag](https://github.com/kyleYang/KYFlipNavigationController/blob/master/Example/KYFlipNavigationController/KYFlipNavigationController.gif)
+The KYFlipNavigationController is an custom NavigationController the use UIViewController to manager the UIViewController(include UINavigationController,UITabbarController,UIViewController) like the UINavigationController .
+Many app like EasyNet News and Toutiao use TabbarController UINavigationController when push
 
+##Overview
+![alt tag](https://github.com/kyleYang/KYFlipNavigationController/blob/master/Example/KYFlipNavigationController/KYFlipNavigationController.gif)
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+###Init
+```swift
+
+		let firstVC = StoryboardHelper.loadViewControllerVCIdentifier("FirstViewController")
+        firstVC.title = "One"
+        let firstNavi = UINavigationController(rootViewController: firstVC)
+        
+        let sencondVC = StoryboardHelper.loadViewControllerVCIdentifier("SecondViewController")
+        sencondVC.title = "Two"
+        
+        
+        let tabbar = RDVTabBarController()
+        tabbar.viewControllers = [firstNavi,sencondVC]
+        
+        
+        let flipViewController = KYFlipNavigationController(rootViewCotroller: tabbar)
+        self.windows.rootViewController = flipViewController
+        self.window.makeKeyAndVisible()
+
+```
+
 
 ## Requirements
 
