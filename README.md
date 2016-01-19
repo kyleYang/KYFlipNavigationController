@@ -35,6 +35,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         self.window.makeKeyAndVisible()
 
 ```
+####Push or Pop
 Push and pop almost like the UINavigationController . The key way is to find the flipNavigationController. It's easy and we use a UITabbarController's extension
 ```swift
 		//Push
@@ -46,7 +47,7 @@ Push and pop almost like the UINavigationController . The key way is to find the
         self.navigationController?.flipNavigationController?.popViewController(true)
 
 ```
-The public func 
+####The public func 
 
 ```swift
 	//Push
@@ -60,6 +61,7 @@ The public func
 	public func popViewController(animated : Bool, completed : KYFlipNavigationCompletionBlock?)
 	public func popViewController(animated : Bool)
 ```
+####Change the stack
 You can also change the UIViewController stack when you want
 
 ```swift
