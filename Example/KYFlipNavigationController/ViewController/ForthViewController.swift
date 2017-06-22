@@ -11,57 +11,59 @@ import KYFlipNavigationController
 
 class ForthViewController: UIViewController {
 
+    let tableView : UITableView = UITableView(frame: CGRect.zero, style: .plain)
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        let backBarItem = UIBarButtonItem(image: UIImage(named:"lx_common_back")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(ForthViewController.buttonTapped(sender:)))
+        self.navigationItem.leftBarButtonItem = backBarItem
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func setViewController(sender: AnyObject) {
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.tableView.estimatedRowHeight = 50
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(self.tableView)
+
+        self.tableView.register(TableViewCell.self, forCellReuseIdentifier:"cell")
+
+        let views = ["tableView":self.tableView]
+
+        self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "|[tableView]|", options: NSLayoutFormatOptions(), metrics: nil, views: views))
+        self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[tableView]|", options: NSLayoutFormatOptions(), metrics: nil, views: views))
         
-        let  viewController = StoryboardHelper.loadViewControllerVCIdentifier("FifthViewController")
-        viewController.title = "第五个"
+    }
+
+    func buttonTapped(sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
+}
+
+
+extension ForthViewController : UITableViewDataSource,UITableViewDelegate{
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20;
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
+        cell.iconView.image = UIImage(named: "cell_1")
+        cell.labelView.text = "cell_\(indexPath.row)"
+
+        return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let  viewController = ThirdViewController(nibName: nil, bundle: nil)
+        viewController.title = "cell_\(indexPath.row)"
+        let navi = UINavigationController(rootViewController: viewController)
+        self.flipNavigationController?.pushViewController(navi, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
         
-        self.flipNavigationController?.pushViewController(viewController, animated: true)
-
-        
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-    
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        print("\(self) viewWillAppear")
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        print("\(self) viewDidAppear")
-    }
-    
-    override func viewWillDisappear(animated: Bool) {
-        super.viewWillDisappear(animated)
-        print("\(self) viewWillDisappear")
-    }
-    
-    override func viewDidDisappear(animated: Bool) {
-        super.viewDidDisappear(animated)
-        print("\(self) viewDidDisappear")
-    }
-
     
 }
+

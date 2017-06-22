@@ -1,13 +1,6 @@
-source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'KYFlipNavigationController_Example', :exclusive => true do
-  pod "KYFlipNavigationController", :path => "../"
-  pod 'RDVTabBarController', '~> 1.1.9'
-end
-
-target 'KYFlipNavigationController_Tests', :exclusive => true do
-  pod "KYFlipNavigationController", :path => "../"
-
-  pod 'FBSnapshotTestCase'
+target 'KYFlipNavigationController_Example' do
+    pod 'KYFlipNavigationController', :path => '../'
+    pod 'RDVTabBarController', '~> 1.1.9'
 end

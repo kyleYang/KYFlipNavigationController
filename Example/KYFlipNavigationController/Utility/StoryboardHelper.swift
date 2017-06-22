@@ -11,17 +11,17 @@ import UIKit
 class StoryboardHelper: NSObject {
 
     //Load UIVieController From Main Storyboard with UIViewContrller Identifier
-    class func loadViewControllerVCIdentifier(vcIdentifier:String) -> UIViewController {
+    class func loadViewControllerVCIdentifier(_ vcIdentifier:String) -> UIViewController {
         
        return StoryboardHelper.loadViewControllerFrom("Main", vcIdentifier: vcIdentifier)
         
     }
     
     //Load UIVieController From storyboardName Storyboard with UIViewContrller Identifier
-    class func loadViewControllerFrom(storyboardName : String, vcIdentifier:String) -> UIViewController {
+    class func loadViewControllerFrom(_ storyboardName : String, vcIdentifier:String) -> UIViewController {
         
         let storybard = UIStoryboard(name: storyboardName, bundle: nil)
-        let vc = storybard.instantiateViewControllerWithIdentifier(vcIdentifier)
+        let vc = storybard.instantiateViewController(withIdentifier: vcIdentifier)
         return vc
         
     }

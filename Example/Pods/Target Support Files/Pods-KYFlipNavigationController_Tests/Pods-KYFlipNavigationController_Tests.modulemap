@@ -1,6 +1,0 @@
-framework module Pods_KYFlipNavigationController_Tests {
-  umbrella header "Pods-KYFlipNavigationController_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

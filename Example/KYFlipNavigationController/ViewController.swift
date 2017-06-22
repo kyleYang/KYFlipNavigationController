@@ -23,30 +23,27 @@ class ViewController: UIViewController {
     }
 
     
-    
-    
-    override func viewDidAppear(animated: Bool){
+    override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
         self.present(UIButton())
     }
     
-    func present(sender: AnyObject) {
+    func present(_ sender: AnyObject) {
         
         let firstVC = StoryboardHelper.loadViewControllerVCIdentifier("FirstViewController")
-        firstVC.title = "第一个"
+        firstVC.title = "First"
         let firstNavi = UINavigationController(rootViewController: firstVC)
         
         let sencondVC = StoryboardHelper.loadViewControllerVCIdentifier("SecondViewController")
-        sencondVC.title = "第二个"
-        
-        
+        sencondVC.title = "Second"
+
         let tabbar = RDVTabBarController()
         tabbar.viewControllers = [firstNavi,sencondVC]
         
         
         let flipViewController = KYFlipNavigationController(rootViewCotroller: tabbar)
         
-        self.presentViewController(flipViewController, animated: false) { () -> Void in
+        self.present(flipViewController, animated: false) { () -> Void in
             
         }
         

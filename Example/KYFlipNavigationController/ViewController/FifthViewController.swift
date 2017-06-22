@@ -22,7 +22,7 @@ class FifthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func setViewCotrollers(sender: AnyObject) {
+    @IBAction func setViewCotrollers(_ sender: AnyObject) {
         
         guard let viewControllers = self.flipNavigationController?.viewControllers else {
             return
@@ -30,7 +30,7 @@ class FifthViewController: UIViewController {
         var newControllers : Array<UIViewController> = []
         for viewController in viewControllers {
             
-            if !viewController.isKindOfClass(ForthViewController.self) {
+            if !viewController.isKind(of: ForthViewController.self) {
                 newControllers.append(viewController)
             }
         }
@@ -38,14 +38,5 @@ class FifthViewController: UIViewController {
         self.flipNavigationController?.viewControllers = newControllers
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
