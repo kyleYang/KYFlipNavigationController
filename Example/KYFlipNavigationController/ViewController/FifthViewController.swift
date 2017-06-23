@@ -21,22 +21,5 @@ class FifthViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func setViewCotrollers(_ sender: AnyObject) {
-        
-        guard let viewControllers = self.flipNavigationController?.viewControllers else {
-            return
-        }
-        var newControllers : Array<UIViewController> = []
-        for viewController in viewControllers {
-            
-            if !viewController.isKind(of: ForthViewController.self) {
-                newControllers.append(viewController)
-            }
-        }
-        
-        self.flipNavigationController?.viewControllers = newControllers
-    }
-
 
 }
